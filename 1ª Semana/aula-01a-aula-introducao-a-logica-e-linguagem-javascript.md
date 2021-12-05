@@ -55,7 +55,7 @@ O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmic
 
 A BrazilJS Conf nasceu como uma conferência sobre JavaScript, mas hoje é bem mais do que isso. É um evento que surgiu junto com a comunidade JavaScript/Front-end no Brasil, com quem cresceu e amadureceu.
 
-![](../.gitbook/assets/img7.png)
+![Fonte: https://www.braziljs.org/](../.gitbook/assets/img7.png)
 
 ## Empresas usando JavaScript no mundo.
 

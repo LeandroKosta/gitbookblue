@@ -22,43 +22,40 @@ Lógica de programação é a organização coesa de uma sequência de instruç�
 
 A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte - que pode ser compilado e transformado em um programa de computador, ou usado como script interpretado - que informará instruções de processamento ao computador.
 
-
-
 ![](../.gitbook/assets/img3.png)
 
 ## **A Linguagem JavaScript!**
 
-É uma linguagem leve;
+* ### É uma linguagem leve;
+* ### Interpretada;&#x20;
+* ### Baseada em objetos com <mark style="color:blue;">funções de primeira classe</mark>;&#x20;
+* ### **Mais conhecida como a linguagem de script para páginas Web, mas usada também em **<mark style="color:blue;">**vários outros ambientes sem browser**</mark>**, tais como:**
+* ### Node.js;&#x20;
+* ### Apache CouchDB;&#x20;
+* ### Adobe Acrobat;&#x20;
+* ### Entre Outras;
 
-Interpretada;
-
-Baseada em objetos com funções de primeira classe;
-
-Mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como:
-
-node.js,
-
-Apache CouchDB
-
-e Adobe Acrobat.
+****
 
 ## A Linguagem JavaScript!
 
 O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional).
 
+![](../.gitbook/assets/img4.png)
+
 ## Veja as vantagens do por que escolhemos JavaScript!
 
-![](../.gitbook/assets/img4.png)
+![](../.gitbook/assets/img5.png)
 
 ## Onde usar JavaScript?
 
-![](../.gitbook/assets/img5.png)
+![](../.gitbook/assets/img6.png)
 
 ## Comunidade JavaScript no Brasil!
 
 A BrazilJS Conf nasceu como uma conferência sobre JavaScript, mas hoje é bem mais do que isso. É um evento que surgiu junto com a comunidade JavaScript/Front-end no Brasil, com quem cresceu e amadureceu.
 
-![Fonte: https://python.org.br/comunidades-locais/](../.gitbook/assets/img6.png)
+![](../.gitbook/assets/img7.png)
 
 ## Empresas usando JavaScript no mundo.
 

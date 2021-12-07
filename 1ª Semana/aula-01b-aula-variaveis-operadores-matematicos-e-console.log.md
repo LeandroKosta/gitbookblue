@@ -72,6 +72,10 @@ No seu VsCode digite o seguinte comando:
 console.log ("Olá Bluemers!");
 ```
 
+{% hint style="warning" %}
+Lembrete: Não esqueça de <mark style="color:blue;">**"Salvar"**</mark>.
+{% endhint %}
+
 ![](<../.gitbook/assets/7.digitar console.log.png>)
 
 Agora vamos abrir um terminal para executar no codigo.
@@ -137,6 +141,10 @@ No seu VsCode digite o seguinte comando:
 ```
 prompt ("Digite seu Nome: ");
 ```
+
+{% hint style="warning" %}
+Lembrete: Não esqueça de <mark style="color:blue;">**"Salvar"**</mark>.
+{% endhint %}
 
 ![](<../.gitbook/assets/14.digitando o comando prompt().png>)
 

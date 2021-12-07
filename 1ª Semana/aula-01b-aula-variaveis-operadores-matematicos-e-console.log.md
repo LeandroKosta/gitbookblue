@@ -26,7 +26,7 @@ JavaScript é uma linguagem de script orientada a objetos, multiplataforma. É u
 
 Vamos preparar nosso ambiente de trabalho criando uma pasta chamada <mark style="color:blue;">**"Blue Edtech",**</mark> escolha o melhor local para criar está pasta.
 
-![](<../.gitbook/assets/1.criar pasta blueedtech.png>)
+![](<../.gitbook/assets/1.criar pasta blueedtech (1).png>)
 
 Agora dentro da pasta <mark style="color:blue;">**"Blue Edtech"**</mark> vamos criar outra pasta chamada <mark style="color:blue;">**"Módulo 1"**</mark>.
 
@@ -80,7 +80,7 @@ No menu principal clique em <mark style="color:blue;">**"Terminal"**</mark> e de
 
 ![](<../.gitbook/assets/8.abrir novo terminal.png>)
 
-Vai aparecer um terminal na tela, logo abaixo do seu código conforme a imagem abaixo, agora vamos digitar o seguinte comando para executar o nosso console.log.
+Vai aparecer um terminal na tela, logo abaixo do seu código conforme a imagem abaixo, agora vamos digitar o seguinte comando e apertar enter para executar o nosso console.log.
 
 ```
 node index.js
@@ -88,14 +88,74 @@ node index.js
 
 ![](<../.gitbook/assets/9.digitar node index.js.png>)
 
-{% hint style="info" %}
-Dica Blue: Sempre que possível aprenda a ler e entender a documentação da linguagem ou comando que você está aprendendo.
-{% endhint %}
+O seu terminal deve ficar igual a imagem abaixo com a mensagem <mark style="color:blue;">**"Olá Bluemers!"**</mark>.
 
-### Exemplo:&#x20;
+Parabéns ! Você criou seu primeiro código.
+
+![](../.gitbook/assets/10.resultado.png)
+
+## Instalando e importando a  dependência prompt();
+
+Antes da gente falar sobre o prompt(); precisamos instalar sua dependência e importar ela bora lá.
+
+Primeiro vamos instalar dependência do prompt();
+
+Com o terminal aberto vamos digitar o código abaixo e aperta enter.
+
+```
+npm install prompt-sync
+```
+
+![](<../.gitbook/assets/11.instalando dependencia prompt.png>)
+
+Note que foi criada uma pasta chamada <mark style="color:blue;">**"node\_modules e alguns arquivos"**</mark>.
+
+![](<../.gitbook/assets/12.foi criada uma pasta chamada node\_modules.png>)
+
+Vamos importar a  dependência do prompt (); para o nosso código.
+
+Quando importamos uma dependência, deixamos ela sempre na primeira linha, vamos digitar o código abaixo na primeira linha do nosso código.
+
+```
+const prompt = require("prompt-sync")();
+```
+
+![](<../.gitbook/assets/13.importando a dependencia prompt ().png>)
+
+Agora já podemos utilizar o comando prompt ();
+
+## Comando prompt ();
+
+O objetivo do comando prompt (); é obter alguma informação da pessoa usuária na página.
+
+Exemplo: prompt("Digite seu nome completo: ");
+
+### Bora Lá Codar!
+
+No seu VsCode digite o seguinte comando:
+
+```
+prompt ("Digite seu Nome: ");
+```
+
+![](<../.gitbook/assets/14.digitando o comando prompt().png>)
+
+Vamos executar o código abaixo para ver o resultado na tela.
+
+```
+node index.js
+```
+
+![](<../.gitbook/assets/15.executei o comando prompt.png>)
+
+Veja o resultado na tela do terminal.
+
+![](<../.gitbook/assets/16.resultado do comando prompt.png>)
+
+Agora você já sabe como solicitar uma informação para o usuário.
 
 {% hint style="info" %}
-Dica Blue: No terminal se você aperta a seta para cima no teclado os comandos que foram digitados anteiormente no terminal vão ser selecionados, basta escolher e aperta entrer, assim não precisa digitar novamente, ganhando tempo na execução do código.
+Dica Blue: No terminal se você aperta a seta para cima do teclado os comandos que foram digitados anteriormente vão ser selecionados, basta escolher e aperta entrer, assim não precisa digitar novamente, ganhando tempo na execução do código.
 {% endhint %}
 
 ###

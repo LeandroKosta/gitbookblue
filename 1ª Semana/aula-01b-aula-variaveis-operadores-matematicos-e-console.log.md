@@ -22,6 +22,32 @@
 
 JavaScript é uma linguagem de script orientada a objetos, multiplataforma. É uma linguagem pequena e leve. Dentro de um ambiente de host (por exemplo, um navegador web) o JavaScript pode ser ligado aos objetos deste ambiente para prover um controle programático sobre eles.
 
+## Bora Lá Codar!
+
+Vamos preparar nosso ambiente de trabalho criando uma pasta chamada <mark style="color:blue;">**"Blue Edtech",**</mark> escolha o melhor local para criar está pasta.
+
+![](<../.gitbook/assets/1.criar pasta blueedtech.png>)
+
+Agora dentro da pasta <mark style="color:blue;">**"Blue Edtech"**</mark> vamos criar outra pasta chamada <mark style="color:blue;">**"Módulo 1"**</mark>.
+
+![](<../.gitbook/assets/2.criar pasta modulo1.png>)
+
+Dentro da pasta "Módulo 1" vamos criar uma pasta chamada "aula1".
+
+![](<../.gitbook/assets/3.criar pasta aula01.png>)
+
+{% hint style="info" %}
+Dica Blue: As pastas que serão criadas os projetos, fica uma sugestão para nomear elas em letras minúsculas e referênciar as mesmas com apenas uma palavra.
+
+Exemplo: "pasta\_da\_minha\_primeira\_aula"
+
+Exemplo2: "aula1"
+{% endhint %}
+
+Agora clique com o botão direiro do mouse na pasta "aula1", em <mark style="color:blue;">**"abrir com"**</mark> selecione o <mark style="color:blue;">**"VSCode"**</mark>.
+
+![](<../.gitbook/assets/4.abrir pasta aula1 com vscode.png>)
+
 ## Console.log() em JavaScript
 
 Exibe uma mensagem na console do navegador.

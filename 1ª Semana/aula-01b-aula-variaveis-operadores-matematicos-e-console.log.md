@@ -24,9 +24,9 @@ JavaScript é uma linguagem de script orientada a objetos, multiplataforma. É u
 
 ## Console.log() em JavaScript
 
-### Exibe uma mensagem na console do navegador.
+Exibe uma mensagem na console do navegador.
 
-### Considerado "mais agradável" para a exibição de uma mensagem por não envolver um pop-up. A mensagem será exibida no sonsole do navegador.
+Considerado "mais agradável" para a exibição de uma mensagem por não envolver um pop-up. A mensagem será exibida no sonsole do navegador.
 
 ### Sintaxe:
 
@@ -40,6 +40,8 @@ Dica Blue: Sempre que possível aprenda a ler e entender a documentação da lin
 
 ### Exemplo:&#x20;
 
-
+{% hint style="info" %}
+Dica Blue: No terminal se você aperta a seta para cima no teclado os comandos que foram digitados anteiormente no terminal vão ser selecionados, basta escolher e aperta entrer, assim não precisa digitar novamente, ganhando tempo na execução do código.
+{% endhint %}
 
 ###

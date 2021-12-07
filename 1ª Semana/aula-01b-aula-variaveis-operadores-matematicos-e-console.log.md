@@ -22,7 +22,7 @@
 
 JavaScript é uma linguagem de script orientada a objetos, multiplataforma. É uma linguagem pequena e leve. Dentro de um ambiente de host (por exemplo, um navegador web) o JavaScript pode ser ligado aos objetos deste ambiente para prover um controle programático sobre eles.
 
-## Bora Lá Codar!
+## Processo de Organização!
 
 Vamos preparar nosso ambiente de trabalho criando uma pasta chamada <mark style="color:blue;">**"Blue Edtech",**</mark> escolha o melhor local para criar está pasta.
 
@@ -32,21 +32,25 @@ Agora dentro da pasta <mark style="color:blue;">**"Blue Edtech"**</mark> vamos c
 
 ![](<../.gitbook/assets/2.criar pasta modulo1.png>)
 
-Dentro da pasta "Módulo 1" vamos criar uma pasta chamada "aula1".
+Dentro da pasta <mark style="color:blue;">**"Módulo 1"**</mark> vamos criar uma pasta chamada <mark style="color:blue;">**"Aula01"**</mark>.
 
 ![](<../.gitbook/assets/3.criar pasta aula01.png>)
 
-{% hint style="info" %}
-Dica Blue: As pastas que serão criadas os projetos, fica uma sugestão para nomear elas em letras minúsculas e referênciar as mesmas com apenas uma palavra.
-
-Exemplo: "pasta\_da\_minha\_primeira\_aula"
-
-Exemplo2: "aula1"
-{% endhint %}
-
-Agora clique com o botão direiro do mouse na pasta "aula1", em <mark style="color:blue;">**"abrir com"**</mark> selecione o <mark style="color:blue;">**"VSCode"**</mark>.
+Agora clique com o botão direiro do mouse na pasta <mark style="color:blue;">**"Aula01"**</mark>, vai aparecer está aba, em <mark style="color:blue;">**"abrir com"**</mark> selecione o <mark style="color:blue;">**"VSCode"**</mark>.
 
 ![](<../.gitbook/assets/4.abrir pasta aula1 com vscode.png>)
+
+Agora que já estamos dentro do VsCode, vamos colocar a mão na massa e criar nosso primeiro arquivo.
+
+Nesse momento estamos dentro da pasta <mark style="color:blue;">**"Aula01"**</mark>, vamos criar um <mark style="color:blue;">**"Novo Arquivo"**</mark>.
+
+![](<../.gitbook/assets/5.criar novo arquivo.png>)
+
+Vamos nomear nosso "Novo Arquivo" de <mark style="color:blue;">**index.js**</mark> e apertar o entrer, com isso o arquivo será criado e aberto ao lado conforme imagem abaixo.
+
+![](<../.gitbook/assets/6.abrir novo arquivo.png>)
+
+Agora vamos aprender nosso primeiro comando.
 
 ## Console.log() em JavaScript
 
@@ -59,6 +63,30 @@ Considerado "mais agradável" para a exibição de uma mensagem por não envolve
 console.log(obj1\[, obj2, ..., objN]);
 
 console.log(msg\[, subst1, ..., substN]);
+
+### Bora Lá Codar!
+
+No seu VsCode digite o seguinte comando:
+
+```
+console.log ("Olá Bluemers!");
+```
+
+![](<../.gitbook/assets/7.digitar console.log.png>)
+
+Agora vamos abrir um terminal para executar no codigo.
+
+No menu principal clique em <mark style="color:blue;">**"Terminal"**</mark> e depois em <mark style="color:blue;">**"Novo Terminal"**</mark>.
+
+![](<../.gitbook/assets/8.abrir novo terminal.png>)
+
+Vai aparecer um terminal na tela, logo abaixo do seu código conforme a imagem abaixo, agora vamos digitar o seguinte comando para executar o nosso console.log.
+
+```
+node index.js
+```
+
+![](<../.gitbook/assets/9.digitar node index.js.png>)
 
 {% hint style="info" %}
 Dica Blue: Sempre que possível aprenda a ler e entender a documentação da linguagem ou comando que você está aprendendo.

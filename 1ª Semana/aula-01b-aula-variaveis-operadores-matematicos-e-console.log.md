@@ -345,5 +345,96 @@ Exemplo:&#x20;
 
 ```
 const numero = 7;
-console.log("meu número favorito é:" + numero/0;
+console.log("meu número favorito é:" + numero);
 ```
+
+## Operadores em JavaScript
+
+### O que vamos aprender?
+
+* Adição;
+* Subtração, Multiplicação e Divisão;
+* Atribuição;
+* Operador de igualdade;
+* Negação, não igual;
+
+### Operadores
+
+Um operador é um símbolo matemático que produz um resultado baseado em dois valores (ou variáveis). A seguir, você pode ver alguns dos operadores mais simples, além de alguns exemplos para experimentar no console JavaScript.
+
+### Operador de Adição
+
+Usado para somar dois números ou juntar duas strings.
+
+Símbolo: +
+
+Exemplo:
+
+6+9;
+
+"Olá " + "Bluemers!";
+
+### Operador de Subtração, Multiplicação e Divisão
+
+Fazem exatamente o que você espera que eles façam na matemática básica.
+
+Símbolo: -, \*, /
+
+Exemplo:
+
+9 - 3;
+
+8 \* 2;&#x20;
+
+9 / 3;
+
+### Operador de Atribuição
+
+Associa um valor a uma variável.
+
+Símbolo: =
+
+Exemplo:
+
+```
+let minhaVariavel = "Bob";
+```
+
+### Operador de igualdade
+
+Faz um teste para ver se dois valores são iguais, retornando um resultado true/false (booleano).
+
+Símbolo: ===
+
+Exemplo:
+
+```
+let minhaVariavel = 3;
+minhaVariavel === 4;
+```
+
+### Operador de Negação, não igual
+
+Retorna o valor lógico oposto do sinal; transforma um true em um false, etc. Quando usado junto com o operador de igualdade, o operador de negação testa se os valores são diferentes.
+
+Símbolo: !, !==
+
+Exemplo:
+
+Para "Negação", a expressão básica é true, mas a comparação retorna false porque a negamos:
+
+```
+let minhaVariavel = 3;
+!(minhaVariavel === 3);
+```
+
+"Não igual" dá basicamente o mesmo resultado com sintaxe diferente. Aqui estamos testando "é minhaVariavel NÃO é igual a 3". Isso retorna false porque minhaVariavel É igual a 3.
+
+```
+let minhaVariavel = 3;
+minhaVariavel !==3;
+```
+
+{% hint style="info" %}
+Veja mais informação nesse site: [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions\_and\_Operators](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions\_and\_Operators)
+{% endhint %}

@@ -284,3 +284,66 @@ meuNumeroArray[2]; // deve retornar 40
 ```
 
 Os colchetes especificam um valor do índice correspondente à posição do valor que você deseja retornado. Você talvez tenha notado que os arrays em JavaScript são indexados a partir do zero, o primeiro elemento está na posição 0 do índice.
+
+## Tipos de palavra-chave de uma variável
+
+### let
+
+Declara uma variável local no escopo do bloco atual, opcionalmente iniciando-a com um valor.
+
+let permite que você declare variáveis limitando seu escopo no bloco, instrução, ou em uma expressão na qual ela é usada. Isso é inverso da keyword var, que define uma variável globalmente ou no escopo inteiro de uma função, independentemente do escopo de bloco.
+
+Sintaxe
+
+let var1 \[= value1] \[, var2 \[= value2]] \[, ..., varN \[= valueN]];&#x20;
+
+Expressão let:
+
+let (var1 \[= value1] \[, var2 \[= value2]] \[, ..., varN \[= valueN]]) expression;
+
+Instrução let:
+
+let (var1 \[= value1] \[, var2 \[= value2]] \[, ..., varN \[= valueN]]) statement ;
+
+{% hint style="info" %}
+Veja mais informação nesse site: [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/let](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/let)
+{% endhint %}
+
+Exemplos:
+
+Uma expressão let limita o escopo de uma variável declarada somente para aquela expressão.
+
+```
+let a = 5;
+let(a = 6) alert(a); //6
+alert(a); //5;
+```
+
+### const
+
+Constantes possuem escopo de bloco, semelhantes às variáveis declaradas usando o palavra-chave let. O valor de uma constante não pode ser alterado por uma atribuição, e ela não pode ser redeclarada.
+
+A declaração const cria uma variável cujo o valor é fixo, ou seja, uma constante somente leitura. Isso não significa que o valor é imutável, apenas que a variável constante não pode ser alterada ou retribuída.
+
+Sintaxe&#x20;
+
+const name1 = value1 \[, name2 = value2 \[, ... \[, nameN = valueN]]]];
+
+nameN&#x20;
+
+Nome da constante. Pode ser qualquer identificador válido.
+
+valueN&#x20;
+
+Valor atribuido a constante. Pode ser qualquer expressão válida, incluindo uma função.
+
+{% hint style="info" %}
+Veja mais informação nesse site: [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const)
+{% endhint %}
+
+Exemplo:&#x20;
+
+```
+const numero = 7;
+console.log("meu número favorito é:" + numero/0;
+```

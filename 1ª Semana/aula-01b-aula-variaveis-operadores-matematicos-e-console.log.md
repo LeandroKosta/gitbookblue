@@ -26,7 +26,7 @@ JavaScript é uma linguagem de script orientada a objetos, multiplataforma. É u
 
 Vamos preparar nosso ambiente de trabalho criando uma pasta chamada <mark style="color:blue;">**"Blue Edtech",**</mark> escolha o melhor local para criar está pasta.
 
-![](<../.gitbook/assets/1.criar pasta blueedtech (1).png>)
+![](<../.gitbook/assets/1.criar pasta blueedtech (1) (1).png>)
 
 Agora dentro da pasta <mark style="color:blue;">**"Blue Edtech"**</mark> vamos criar outra pasta chamada <mark style="color:blue;">**"Módulo 1"**</mark>.
 
@@ -63,6 +63,10 @@ Considerado "mais agradável" para a exibição de uma mensagem por não envolve
 console.log(obj1\[, obj2, ..., objN]);
 
 console.log(msg\[, subst1, ..., substN]);
+
+{% hint style="info" %}
+Veja mais informação nesse site: [https://developer.mozilla.org/pt-BR/docs/Web/API/console/log](https://developer.mozilla.org/pt-BR/docs/Web/API/console/log)
+{% endhint %}
 
 ### Bora Lá Codar!
 
@@ -166,4 +170,117 @@ Agora você já sabe como solicitar uma informação para o usuário.
 Dica Blue: No terminal se você aperta a seta para cima do teclado os comandos que foram digitados anteriormente vão ser selecionados, basta escolher e aperta entrer, assim não precisa digitar novamente, ganhando tempo na execução do código.
 {% endhint %}
 
-###
+## Variáveis em JavaScript
+
+### O que vamos aprender?
+
+* <mark style="color:blue;">**Tipos de váriaveis**</mark>
+* <mark style="color:blue;">**let**</mark>
+* <mark style="color:blue;">**const**</mark>
+
+### O que é uma Variável?
+
+Uma variável (variable) é um local nomeado para armazenar um valor. Dessa forma, um valor pode ser acessado através de um nome predeterminado.
+
+Variáveis são espaços na memória do computador onde você pode armazenar dados.
+
+Você começa declarando uma variável com uma palavra-chave <mark style="color:blue;">**"const"**</mark> ou <mark style="color:blue;">**"let"**</mark>, seguida por qualquer nome que você queira chamá-la veja o exemplo:
+
+let <mark style="color:red;">**minhaVariavel**</mark> ou const <mark style="color:red;">**minhaVariavel**</mark>;
+
+{% hint style="info" %}
+JavaScript é case sensitive - **minha**<mark style="color:red;">**V**</mark>**ariavel** é diferente de **minha**<mark style="color:red;">**v**</mark>**ariavel**.
+{% endhint %}
+
+Mais uma coisa especial a respeito das variáveis é que seu conteúdo pode mudar. Vamos ver um exemplo prático:
+
+```
+let nome = prompt("Qual é o seu nome? );
+console.log("Olá" + nome + ", é um prazer te ver!");
+```
+
+{% hint style="warning" %}
+Lembrete: Não esqueça de <mark style="color:blue;">**"Salvar"**</mark> e executar o código <mark style="color:blue;">**"node index.js"**</mark> no terminal..
+{% endhint %}
+
+![](<../.gitbook/assets/17.exemplo do codigo com let.png>)
+
+Aṕos executar o código o resulta será esse.
+
+![](../.gitbook/assets/18.resultado.png)
+
+### Vamos aprender a dar valor para uma variável
+
+Depois de declarar uma variável, você pode dar a ela um valor veja o exemplo:&#x20;
+
+**let minhaVariavel = "Aluno";**
+
+Você pode retornar o valor chamando a variável pelo nome veja o exemplo:&#x20;
+
+**minhaVariavel;**
+
+Se quiser você pode mudá-lo depois:&#x20;
+
+**let minhaVariavel = "Aluno";**&#x20;
+
+**let minhaVariavel = "Professor";**
+
+Então, por que precisamos de variáveis? Bom, variáveis são necessárias para fazer qualquer coisa interessante em programação. Se os valores não pudessem mudar, então você não poderia fazer nada dinâmico, como personalizar uma mensagem de boas-vindas, ou mudar a imagem mostrada em uma galeria de imagens.
+
+## Tipos de Variáveis
+
+Note que as variáveis podem conter valores com diferentes tipos de dados.
+
+&#x20;Existem alguns diferentes tipos de dados que podemos armazenar em variáveis.
+
+### Variáveis do tipo: Números
+
+Você pode armazenar números em variáveis, tanto números inteiros, como por exemplo 30 **(também chamados de integers)** como números decimais, por exemplo 2.456 **(também chamados de floats ou floating point numbers)**. Você não precisa declarar tipos de variáveis no JavaScript, diferentemente de outras linguagens de programação. Quando você atribui a uma variável o valor em número, você não inclui as aspas:&#x20;
+
+```
+let minhaIdade = 17;
+```
+
+### Variáveis do tipo: Strings
+
+Strings são sequências de texto. Quando você dá a uma variável um valor em texto **(string)**, você precisa envolver o texto em aspas simples ou duplas; caso contrário, o JavaScript vai tentar interpretá-lo como sendo outro nome de variável veja o exemplo:
+
+let fraseMotivacional = "É pra frente que se anda, é pra cima que se olha e é lutando que se conquista. Treine sua mente para ver o lado bom de qualquer situação. E tudo que atrasa, deixa a maré levar!";
+
+### Variáveis do tipo: Booleans
+
+Booleans são valores verdadeiro/falso **(true/false)** — eles podem ter dois valores, true **(verdadeiro)** ou false **(falso)**. São geralmente usados para verificar uma condição, que em seguida o código é executado apropriadamente.&#x20;
+
+Por exemplo, um caso simples seria:&#x20;
+
+```
+let teste = 6 < 3;
+```
+
+Esse exemplo está usando o operador **"menor que"** (<) para testar se 6 é menor que 3. Como você pode esperar, irá retornar false **(falso)**, porque 6 não é menor que 3!
+
+### Variáveis do tipo: Arrays
+
+Um array é um único objeto que contém valores múltiplos inseridos entre colchetes e separados por vírgulas. Tente inserir as seguintes linhas de código no seu console:&#x20;
+
+```
+let meuNomeArray = ["João", "Maria", "José"];
+```
+
+```
+let meuNumeroArray = [10, 15, 40];
+```
+
+Uma vez que esses arrays estejam definidos, você pode acessar cada um de seus valores através de sua localização dentro do array.&#x20;
+
+Tente essas linhas:
+
+```
+meuNomeArray[0]; // deve retornar "João"
+```
+
+```
+meuNumeroArray[2]; // deve retornar 40
+```
+
+Os colchetes especificam um valor do índice correspondente à posição do valor que você deseja retornado. Você talvez tenha notado que os arrays em JavaScript são indexados a partir do zero, o primeiro elemento está na posição 0 do índice.

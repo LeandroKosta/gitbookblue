@@ -200,7 +200,7 @@ console.log("Olá" + nome + ", é um prazer te ver!");
 ```
 
 {% hint style="warning" %}
-Lembrete: Não esqueça de <mark style="color:blue;">**"Salvar"**</mark> e executar o código <mark style="color:blue;">**"node index.js"**</mark> no terminal..
+Lembrete: Não esqueça de <mark style="color:blue;">**"Salvar"**</mark> e executar o código <mark style="color:blue;">**"node index.js"**</mark> no terminal.
 {% endhint %}
 
 ![](<../.gitbook/assets/17.exemplo do codigo com let.png>)
@@ -238,8 +238,17 @@ Note que as variáveis podem conter valores com diferentes tipos de dados.
 Você pode armazenar números em variáveis, tanto números inteiros, como por exemplo 30 **(também chamados de integers)** como números decimais, por exemplo 2.456 **(também chamados de floats ou floating point numbers)**. Você não precisa declarar tipos de variáveis no JavaScript, diferentemente de outras linguagens de programação. Quando você atribui a uma variável o valor em número, você não inclui as aspas:&#x20;
 
 ```
-let minhaIdade = 17;
+let minhaIdade = 18;
+console.log(minhaIdade);
 ```
+
+{% hint style="warning" %}
+Lembrete: Não esqueça de <mark style="color:blue;">**"Salvar"**</mark> e executar o código <mark style="color:blue;">**"node index.js"**</mark> no terminal.
+{% endhint %}
+
+![](../.gitbook/assets/19.letminhaIdade.png)
+
+Veja o resultado.
 
 ### Variáveis do tipo: Strings
 
